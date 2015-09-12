@@ -17,12 +17,12 @@ public abstract class VersionControl {
 
     public int findBadVersion(int start, int end) {
 
-//        LOGGER.debug("start{} end{}",start,end);
+        LOGGER.debug("start{} end{}",start,end);
         if (start >= end) {
             return start;
         } else {
             int mid = (end - start) / 2 + start;
-//            LOGGER.debug("mid{}",mid);
+            LOGGER.debug("mid{}",mid);
             if (isBadVersion(mid)) {
                 end = mid;
             } else {
