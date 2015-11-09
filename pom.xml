@@ -11,6 +11,7 @@
     <modules>
         <module>Easy</module>
         <module>Medium</module>
+        <module>Case</module>
     </modules>
 
     <properties>
